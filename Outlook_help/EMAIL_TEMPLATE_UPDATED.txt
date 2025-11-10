@@ -1,0 +1,87 @@
+Subject: Welcome to HHA Medicine - Your Email Account Setup Instructions
+
+Dear [Employee Name],
+
+Welcome to HHA Medicine! We're excited to have you on our team.
+
+As part of your onboarding, we've created your company email account. This email will be your primary communication tool for all work-related correspondence.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📧 YOUR EMAIL CREDENTIALS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Email Address: [username]@hhamedicine.com
+Temporary Password: [password]
+
+⚠️ IMPORTANT: You will be required to change your password upon first login for security purposes.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📖 SETUP INSTRUCTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+We've created a comprehensive step-by-step guide to help you access your email:
+
+🔗 Email Access Guide: [INSERT YOUR NETLIFY URL HERE]
+
+This guide includes:
+✓ Detailed login instructions with actual screenshots
+✓ Password creation guidelines
+✓ Mobile device setup
+✓ Troubleshooting tips
+✓ Support contact information
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🚀 QUICK START
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Go to: https://outlook.office.com
+2. Enter your email: [username]@hhamedicine.com
+3. Enter your temporary password
+4. Create a new secure password
+5. Access your inbox!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📱 MOBILE ACCESS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+You can also access your email on mobile devices:
+• Download the Microsoft Outlook app from your app store
+• Use the same credentials to sign in
+• Stay connected on the go!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💬 NEED HELP?
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+If you have any questions or encounter issues:
+
+Primary IT Support:
+👤 Akhil Reddy Danda
+📧 areddy@hhamedicine.com
+📱 +1 (224) 999-9944
+
+Secondary IT Support:
+👤 Andrea Simon
+📧 asimon@hhamedicine.com
+📱 +1 (210) 232-7560
+
+👤 Reshma Miriyala
+📧 rmiriyala@hhamedicine.com
+📱 +1 (216) 647-2250
+
+Support Hours: Monday-Friday, 8:00 AM - 6:00 PM CST
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Please complete your email setup within 24 hours and bookmark the access guide for future reference.
+
+We're here to help make your transition smooth. Don't hesitate to reach out if you need assistance!
+
+Welcome aboard!
+
+Best regards,
+HHA Medicine IT Team
+
+---
+HHA Hospital Medicine Care Forward
+© 2025 HHA Hospital Medicine
