@@ -39,9 +39,9 @@ You can open this file directly in any web browser or host it on a web server fo
    - Click "Add new site" → "Import an existing project"
    - Choose "GitHub"
    - Select the repository: `DandaAkhilReddy/HHAMEDICINE_Andrea_`
-   - Configure build settings:
-     - Build command: (leave empty)
-     - Publish directory: `/`
+   - Configure build settings (or accept the defaults from `netlify.toml`):
+     - Build command: *(leave empty)*
+     - Publish directory: `Outlook_help`
    - Click "Deploy site"
 
 3. **Your site will be live at:** `https://your-site-name.netlify.app`
@@ -49,7 +49,7 @@ You can open this file directly in any web browser or host it on a web server fo
 ### Method 2: Drag and Drop Deployment
 
 1. Go to [netlify.com](https://www.netlify.com/)
-2. Drag the `email-access-guide.html` file to the Netlify drop zone
+2. Drag the `email-access-guide.html` file (or the entire `Outlook_help` folder) to the Netlify drop zone
 3. Netlify will automatically deploy your site
 4. Your guide will be live immediately!
 
@@ -65,6 +65,14 @@ netlify login
 # Deploy
 netlify deploy --prod
 ```
+
+## ⚙️ Netlify Configuration-as-Code
+
+This repository now includes a root-level `netlify.toml`:
+- `publish = "Outlook_help"` so Netlify serves the folder that contains the HTML guide
+- No build command is required; Netlify just uploads the static assets
+
+Keeping this file committed means every environment (GitHub-connected deploys, local CLI deploys, or manual rebuilds) behaves the same way without additional UI tweaks.
 
 ## 🎨 Features
 
@@ -100,7 +108,7 @@ The guide is fully responsive and works perfectly on:
 ## 🔧 Customization
 
 ### Update Contact Information
-Edit the contact section in `email-access-guide.html`:
+Edit the contact section in `email-access-guide.html` (this file is the canonical guide; `index.html` simply redirects to it for Netlify):
 
 ```html
 <div class="contact-card">

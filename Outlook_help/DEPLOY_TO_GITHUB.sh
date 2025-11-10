@@ -17,9 +17,34 @@ echo ""
 read -p "Press Enter when you're in the repository directory..."
 
 echo ""
-echo -e "${BLUE}Step 2: Copy the email guide${NC}"
-cp email-access-guide.html index.html
-echo "✓ Copied email-access-guide.html to index.html"
+echo -e "${BLUE}Step 2: Ensure Netlify redirect index exists${NC}"
+if [ ! -f index.html ]; then
+    cat <<'EOF' > index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HHA Medicine Email Access Guide</title>
+    <meta http-equiv="refresh" content="0; url=./email-access-guide.html" />
+    <link rel="canonical" href="./email-access-guide.html" />
+    <script>
+        window.addEventListener("DOMContentLoaded", function () {
+            window.location.replace("./email-access-guide.html");
+        });
+    </script>
+</head>
+<body>
+    <p>Redirecting to the HHA Medicine Email Access Guide…
+        <a href="./email-access-guide.html">Click here if you are not redirected.</a>
+    </p>
+</body>
+</html>
+EOF
+    echo "✓ Created index.html redirect"
+else
+    echo "✓ index.html redirect already present"
+fi
 
 echo ""
 echo -e "${BLUE}Step 3: Add files to Git${NC}"
